@@ -1,11 +1,11 @@
-.navbar{
-
-    height: 100px;
-
+.textoba {
+    position: absolute;
+    top: 15rem;
+    right: 5rem;
 }
 
-.navbar-brand{
-
-    height: 100px;
-
+.opacidadba1{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
 }
