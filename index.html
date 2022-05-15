@@ -149,55 +149,87 @@
         </div>
     </form>
   </div>
-  <div class="container-fluid" id="tickets" style="margin-top: 5rem">
-    <form action="" style="margin-top: 0rem;">
-      <div class="container text-center">
-        <p style="margin-bottom: 0rem; font-size: 0.7rem;">VENTA</p>
-        <h3 style="margin-top: 0.3rem;">VALOR DE TICKET $200</h3>
-        <div class="row" style="margin-left: 17rem; margin-bottom: 1rem;">
-          <div class="col-4">
-            <input type="text" class="form-control form-control-sm" placeholder="Nombre" name="nombre">
-          </div>
-          <div class="col-4">
-            <input type="text" class="form-control form-control-sm" placeholder="Apellido" name="nombre">
+  <div class="container-fluid g-0 mx-0" id="tickets" style="margin-top: 5rem">
+    <div class="row row-cols-1 row-cols-sm-3 g-0" style="margin-left:10rem;">
+      <div class="col g-0" style="margin: 0vh;">
+        <div class="card border-primary border-2 rounded-0 h-100 text-center" style="width: 25vh; height: 25vh; margin-right:  0vh;">
+          <div class="card-body">
+            <h5 class="card-title">Estudiante</h5>
+            <p class="card-text">Tienen un descuento</p>
+            <p class="card-text" style="font-weight: bold;">80%</p>
+            <p class="card-text" style="font-size: 0.8rem;">* presentar documentación.</p>
           </div>
         </div>
-        <div class="row" style="margin-left: 17rem; margin-bottom: 1rem;">
-          <div class="col-8">
-            <input type="text" class="form-control form-control-sm" placeholder="Correo" name="correo">
-          </div>
+      </div>
+      <div class="col m-0 p-0" style="margin: 0vh;">
+      <div class="card border-info border-2 rounded-0 h-100 text-center" style="width: 25vh; height: 25vh; margin-left:  0vh;">
+        <div class="card-body">
+          <h5 class="card-title">Trainee</h5>
+          <p class="card-text">Tienen un descuento</p>
+          <p class="card-text" style="font-weight: bold;">50%</p>
+          <p class="card-text" style="font-size: 0.8rem;">* presentar documentación.</p>
         </div>
-        <div class="row" style="margin-left: 17rem; margin-bottom: 1rem;">
-          <div class="col-4">
-            <label for="cantidad" class="form-label" style="margin-right: 12rem;">Cantidad:</label>
-            <input type="text" class="form-control form-control-sm"  placeholder="Cantidad" name="cantidad">
-          </div>
-          <div class="col-4">
-            <label for="categoria" class="form-label" style="margin-right: 12rem;">Categoría:</label>
-            <select class="form-select form-select-sm" name="categoria">
-              <option>Estudiante</option>
-              <option>Trainee</option>
-              <option>Junior</option>
-            </select>
-          </div>
         </div>
-        <div class="row" style="margin-left: 17rem;">
-          <div class="col-4">
-            <button type="submit" class="btn col-12 text-white" style="background-color: yellowgreen;">Borrar</button>
-          </div>
-          <div class="col-4">
-            <button type="submit" class="btn col-12 text-white" style="background-color: yellowgreen;">Resumen</button>
-          </div>
+      </div>
+      <div class="col">
+      <div class="card border-warning border-2 rounded-0 h-100 text-center" style="width: 25vh; height: 25vh;">
+        <div class="card-body">
+          <h5 class="card-title">Junior</h5>
+          <p class="card-text">Tienen un descuento</p>
+          <p class="card-text" style="font-weight: bold;">15%</p>
+          <p class="card-text" style="font-size: 0.8rem;">* presentar documentación.</p>
         </div>
-    </form>
+      </div>
+    </div>
+    </div>
   </div>
-
-
-
-
-
-
-
+  <form action="" style="margin-top: 2rem;">
+    <div class="container text-center">
+      <p style="margin-bottom: 0rem; font-size: 0.7rem;">VENTA</p>
+      <h3 style="margin-top: 0.3rem;">VALOR DE TICKET $200</h3>
+      <div class="row" style="margin-left: 17rem; margin-bottom: 1rem;">
+        <div class="col-4">
+          <input type="text" class="form-control form-control-sm" placeholder="Nombre" name="nombre">
+        </div>
+        <div class="col-4">
+          <input type="text" class="form-control form-control-sm" placeholder="Apellido" name="nombre">
+        </div>
+      </div>
+      <div class="row" style="margin-left: 17rem; margin-bottom: 1rem;">
+        <div class="col-8">
+          <input type="text" class="form-control form-control-sm" placeholder="Correo" name="correo">
+        </div>
+      </div>
+      <div class="row" style="margin-left: 17rem; margin-bottom: 1rem;">
+        <div class="col-4">
+          <label for="cantidad" class="form-label" style="margin-right: 12rem;">Cantidad:</label>
+          <input type="text" class="form-control form-control-sm" placeholder="Cantidad" name="cantidad">
+        </div>
+        <div class="col-4">
+          <label for="categoria" class="form-label" style="margin-right: 12rem;">Categoría:</label>
+          <select class="form-select form-select-sm" name="categoria">
+            <option>Estudiante</option>
+            <option>Trainee</option>
+            <option>Junior</option>
+          </select>
+        </div>
+      </div>
+      <div class="row" style="margin-left: 17rem;">
+        <div class="col-8">
+          <div class="p-3 mb-2 bg-primary text-blue bg-opacity-50 text-start">Total a pagar $</div>
+        </div>
+      <div class="row" style="margin-left: 0rem;">
+        <div class="col-4">
+          <button type="submit" class="btn col-12 text-white" style="background-color: yellowgreen;">Borrar</button>
+        </div>
+        <div class="col-4">
+          <button type="submit" class="btn col-12 text-white" style="background-color: yellowgreen;">Resumen</button>
+        </div>
+      </div>
+      
+      </div>
+  </form>
+  </div>
   <footer>
     <div class="mt-5 mx-0 w-100 p-4 text-white text-center" style="background-color: rgba(29,57,71,255);">
       <a class="nav-link d-inline-block" style="color: white; font-size: 0.9rem;" href="">Preguntas frecuentes</a>
